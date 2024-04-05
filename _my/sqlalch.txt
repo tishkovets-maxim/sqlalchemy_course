@@ -11,3 +11,30 @@ https://github.com/artemonsh/sqlalchemy_course
 https://github.com/tishkovets-maxim/sqlalchemy_course
 Папка
 c:\DATA\DOC\_Personal\учеба\self_SQLAL\sqlalchemy_course\
+
+
+11:30 2024/4/3
+Строка подключения к базе грамотно называется DSN (data source name)
+
+
+19:44 2024/4/3
+Есть такая классификация:
+
+query = select
+statment = insert, update, delete
+
+
+
+INSERT INTO workers (user_name) VALUES
+('Vasya'), ('Petya');
+
+
+21:35 2024/4/5
+Вот этот подход, что мы разобрали, называется *императивный стиль*
+
+
+Сейчас будем изучать
+*декларативный стиль*: объявляем *модели* через классы
+
+(что есть модели)
+

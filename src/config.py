@@ -21,4 +21,11 @@ class Settings(BaseSettings):
     
     model_config = SettingsConfigDict(env_file=".env")
 
+
+# То есть что у нас тут.
+# Мы создали класс с полями, присвоили полям типы
+# А потом - МАГИЯ - заполнили поля из указанного рядом файла
+# Возвращалки DSN - вполне тривиальны.
+
+
 settings = Settings()
